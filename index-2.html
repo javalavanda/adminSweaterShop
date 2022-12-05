@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel</title>
+    <link href="style-2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="admin-panel clearfix">
+  <div class="slidebar">
+    <div class="logo">
+      <a href=""><img src="img/logo.png" alt="logo"></a>
+    </div>
+    <ul>
+      <li><a href="#dashboard" id="targeted">dashboard</a></li>
+      <li><a href="#posts">Products</a></li>
+      <li><a href="#media">New Orders</a></li>
+      <li><a href="#pages">Done Orders</a></li>
+      <li><a href="#settings">Settings</a></li>
+    </ul>
+  </div>
+  <div class="main">
+    <div class="mainContent clearfix">
+      <div id="dashboard">
+        <h2 class="header"><span class="icon"></span>Dashboard</h2>
+          <div class="monitor">
+            <h4>Orders</h4>
+            <div class="clearfix">
+              <ul class="content">
+                <li>Waiting list</li>
+                <li class="posts"><span class="count">-</span><a href="">pickup</a></li>
+                <li class="pages"><span class="count">-</span><a href="">delivery</a></li>
+              </ul>
+              <ul class="discussions">
+                <li>Ready</li>
+                <li class="comments"><span class="count">-</span><a href="">Pickup</a></li>
+                <li class="approved"><span class="count">-</span><a href="">Delivery</a></li>
+             </ul>
+           </div>
+         
+         </div>
+         <div class="quick-press">
+           <h4>Add Product</h4>
+           <form action="" method="post">
+             <input type="text" name="title" placeholder="Title"/>
+             <input type="text" name="content" placeholder="Description"/>
+             <input type="text" name="tags" placeholder="Price"/>
+             <button type="button" class="save">Clear</button>
+             <button type="button" class="delet">Save</button>
+             <button type="submit" class="submit" name="submit">Send</button>
+           </form>
+         </div>
+       </div>
+       <div id="posts">
+         <h2 class="header">Products</h2>
+       </div>
+       <div id="media">
+         <h2 class="header">New Orders</h2>
+       </div>
+       <div id="pages">
+         <h2 class="header">Done Orders</h2>
+       </div>
+       <div id="settings">
+         <h2 class="header">Settings</h2>
+       </div>
+     </div>
+   </div>
+</div>
+</body>
+</html>
